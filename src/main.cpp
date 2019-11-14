@@ -107,7 +107,7 @@ int main(int argc, char **argv) {
       ROS_INFO_STREAM("Setting angular velocity to Avoid Obstacle.");
 /// Make sure the robot does not have any linear velocity
       msg.linear.x = 0.0;
-
+/// Increment the number of obstacles only if the flag equal true
       if ( flag == true ) {
         ++count;
         robot.setAvoided(count);
