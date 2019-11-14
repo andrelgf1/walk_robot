@@ -34,7 +34,8 @@ class walkRobot {
   walkRobot();
 
 /**
- * @brief Sensor callback function in order to subscribe in the laser sensor topic.
+ * @brief Sensor callback function in order to subscribe in the laser sensor topic and
+ * set the atribute obstacle in order to inform the presence or not of obstacles.
  * 
  * @param sensor_msgs::LaserScan
  * @return none
