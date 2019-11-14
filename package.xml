@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>walk_robot</name>
+  <version>0.0.0</version>
+  <description>The walk_robot package</description>
+
+ <maintainer email="andrelgferreira1@gmail.com">Andre</maintainer>
+  <license>BSD</license>
+  <url type="website">http://wiki.ros.org/beginner_tutorials</url> 
+  <author email="andrelgferreira1@gmail.com">Andre</author> 
+
+
+ 
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
