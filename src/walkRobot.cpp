@@ -3,7 +3,7 @@
  *
  * @file walkRobot.cpp
  *
- * @brief Header implementation of methods of the walkRobot class
+ * @brief Implementation of methods of the walkRobot class
  *
  * @author Andre Ferreira
  *
@@ -19,6 +19,7 @@
 walkRobot::walkRobot() {
 /// initializing obstacle variable to false
   obstacle = false;
+/// Initialize avoided variable to 0
   avoided = 0;
 }
 
