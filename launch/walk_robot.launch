@@ -1,0 +1,21 @@
+<launch>
+  <arg name = "record" default = "disable"/>
+  <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch">
+  <arg name="world_file" value="$(find walk_robot)/world/map"/>
+  </include>
+
+  <node
+    pkg = "walk_robot"
+    name = "walk_robot"
+    type = "walk_robot"
+    output = "screen"
+  />
+
+  <node
+    pkg = "rosbag"
+    name = "rosbag"
+    type = "record"
+    args = "-a -O $(find walk_robot)/results/recorded.bag -x /camera/(.*)"
+    if = "$(eval record == 'enable')"
+  />
+</launch>
