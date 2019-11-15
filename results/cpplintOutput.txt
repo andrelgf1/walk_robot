@@ -1,0 +1,7 @@
+./src/walkRobot.cpp:26:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+Done processing ./src/walkRobot.cpp
+Done processing ./src/main.cpp
+Done processing ./include/walk_robot/walkRobot.hpp
+Total errors found: 1
+
+
