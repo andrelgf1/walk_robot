@@ -44,7 +44,7 @@ void walkRobot::setAvoided(int number) {
   avoided = number;
   ROS_INFO_STREAM("Number of obstacles avoided"<< avoided);
 }
-///get value of variable avoided
+/// get value of variable avoided
 int walkRobot::getAvoided() {
   return avoided;
 }
