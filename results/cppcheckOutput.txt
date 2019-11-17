@@ -1,0 +1,9 @@
+Checking include/walk_robot/walkRobot.hpp...
+1/3 files checked 20% done
+Checking src/main.cpp...
+2/3 files checked 84% done
+Checking src/walkRobot.cpp...
+3/3 files checked 100% done
+
+
+
