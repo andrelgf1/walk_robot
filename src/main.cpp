@@ -3,7 +3,7 @@
  *
  * @file main.cpp
  *
- * @brief Node cantrols turtlebot in order to move wuthout hitting obstacles
+ * @brief Node cantrols turtlebot in order to move without hitting obstacles
  *
  * @author Andre Ferreira
  *
@@ -43,8 +43,7 @@ int main(int argc, char **argv) {
    * The subscribe() call is how you tell ROS that you want to receive messages
    * on a given topic.  This invokes a call to the ROS
    * master node, which keeps a registry of who is publishing and who
-   * is subscribing.  Messages are passed to a callback function, here
-   * called chatterCallback.  subscribe() returns a Subscriber object that you
+   * is subscribing. subscribe() returns a Subscriber object that you
    * must hold on to until you want to unsubscribe.  When all copies of the Subscriber
    * object go out of scope, this callback will automatically be unsubscribed from
    * this topic.
