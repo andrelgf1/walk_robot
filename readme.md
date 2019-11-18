@@ -78,33 +78,6 @@ roslaunch walk_robot  walk_robot.launch
 
 ```
 
-## How to run each node separately
-
-once your environment is set
-
-open the terminal and initialize the master
- 
-```
-roscore
-
-```
-In a new terminal, lets run the publisher talker
-
-```
- cd ~/catkin_ws/
- source devel/setup.bash
- rosrun beginner_tutorials talker
-
-```
-In a new terminal, lets run the Subscriber listener
-```
- cd ~/catkin_ws/
- source devel/setup.bash
- rosrun beginner_tutorials listener
-
-```
-
-
 
 ## Recording bag files with the launch file
 
